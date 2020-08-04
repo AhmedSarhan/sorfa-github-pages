@@ -16,56 +16,68 @@
     <title>سفرة</title>
   </head>
   <body>
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="container-fluid">
-      <div class="row">
-          <div class="col-md-6">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#" class="nav-link"  role="button">
-                        <i class="fas fa-shopping-cart"></i>
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-user-circle"></i>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#"><i class="fas fa-suitcase-rolling"></i> منتجاتي</a>
-                      <a class="dropdown-item" href="#"><i class="fas fa-gift"></i> العروض</a>
-                      <a class="dropdown-item" href="#"><i class="fas fa-envelope-square"></i> تواصل معنا</a>
-                      <a class="dropdown-item" href="#"><i class="fas fa-user"></i>حسابي</a>
-                      <a class="dropdown-item" href="#"><i class="fas fa-calculator"></i> العمولة</a>
-                      <a class="dropdown-item" href="#"><i class="far fa-sticky-note"></i> الطلبات المقدمة</a>
-                      <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i>تسجيل الخروج</a>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a  class="nav-link"  href="sofra-home-client.html" type="button">
+                                <i class="fa fa-home"></i>
+                            </a>
+                          </li>
+                      <li class="nav-item">
+                          <a href="orders.html" class="nav-link"   type="button">
+                              <i class="fas fa-shopping-cart"></i>
+                          </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link" data-toggle="collapse" data-target="#navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <i class="fas fa-user-circle"></i>
+                          </a>
+                          <div class="dropdown-menu" id="navbarDropdown" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../../index.html"><i class="fas fa-suitcase-rolling"></i> منتجاتي</a>
+                            <a class="dropdown-item" href="offers-1.html"><i class="fas fa-gift"></i> العروض</a>
+                            <a class="dropdown-item" href="contact-us.html"><i class="fas fa-envelope-square"></i> تواصل معنا</a>
+                            <a class="dropdown-item" href="my-account.html"><i class="fas fa-user"></i>حسابي</a>
+                            <a class="dropdown-item" href="my-orders-new.html"><i class="far fa-sticky-note"></i> الطلبات المقدمة</a>
+                            <a class="dropdown-item" href="login.html"><i class="fas fa-sign-out-alt"></i>تسجيل الخروج</a>
+                          </div>
+                      </li>
+                      </ul>
+                      <form class="form-inline  my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" aria-label="Search">
+                        <a class="btn my-sm-0" type="submit"><i class="fas fa-search"></i></a>
+                      </form>
                     </div>
-                  </li>
-                </ul>
-                <form class="form-inline  my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" aria-label="Search">
-                  <a class="btn my-sm-0" type="submit"><i class="fas fa-search"></i></a>
-                </form>
-              </div>
-          </div>
-          <div class="col-md-4">
-            <a class="navbar-brand" href="../../index.html"><img src="../imgs/sofra logo.png" alt="logo"></a>
-          </div>
-          <div class="col-md-2">
-            <i class="fas fa-hamburger"></i>
-          </div>
-      </div>
-  </div>
-</nav>
+                </div>
+                <div class="col-md-4">
+                  <a class="navbar-brand" href="sofra-resturant.html"><img src="../imgs/sofra logo.png" alt="logo"></a>
+                </div>
+                <div class="col-md-2">
+                  <i class="fas fa-hamburger"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
 <section class="section-header client-header clearfix">
     <div class="container clearfix">
         <img class="img-fluid" src="../imgs/sofra.png" alt="kentuky logo">
         <h3>بتشتري / بتبيع؟ كله عند أم ربيع</h3>
-        <a class="btn-custom"> سجل الآن  <img src="../imgs/dish.png" alt="dish" class="img-fluid dish"></a>
+        <div class="row">
+            <div class="col-md-4 m-auto">
+                <a class="btn-custom" href="register-seller.html">  سجل الآن "بائع"  <img src="../imgs/dish.png" alt="dish" class="img-fluid dish"></a>
+
+            </div>
+            <div class="col-md-4 m-auto">
+                <a class="btn-custom" href="register.html"> سجل الآن "مشتري" <img src="../imgs/dish.png" alt="dish" class="img-fluid dish"></a>
+            </div>
+        </div>
+
     </div>
 </section>
 <section class="section-products fav-resturant clearfix">
@@ -99,15 +111,15 @@
                     <div class="col-md-6">
                         <h3>دجاج كنتاكي</h3>
                         <div class="rate clearfix" dir="rtl">
-                            <input type="checkbox" id="star5" name="rate" value="5"  />
+                            <input type="checkbox" id="star5" name="rate" value="5"  disabled/>
                             <label for="star5" title="text">5 stars</label>
-                            <input type="checkbox" id="star4" name="rate" value="4"/>
+                            <input type="checkbox" id="star4" name="rate" value="4" disabled/>
                             <label for="star4" title="text">4 stars</label>
-                            <input type="checkbox" id="star3" name="rate" value="3" checked />
+                            <input type="checkbox" id="star3" name="rate" value="3" checked  disabled/>
                             <label for="star3" title="text">3 stars</label>
-                            <input type="checkbox" id="star2" name="rate" value="2" checked />
+                            <input type="checkbox" id="star2" name="rate" value="2" checked disabled/>
                             <label for="star2" title="text">2 stars</label>
-                            <input type="checkbox" id="star1" name="rate" value="1" checked />
+                            <input type="checkbox" id="star1" name="rate" value="1" checked disabled/>
                             <label for="star1" title="text">1 star</label>
                           </div>
                           <p>الحد الأدنى للطلب: 60 ريال</p>
@@ -126,15 +138,15 @@
                     <div class="col-md-6">
                         <h3>دجاج كنتاكي</h3>
                         <div class="rate clearfix" dir="rtl">
-                             <input type="checkbox" id="star5" name="rate" value="5"  />
+                             <input type="checkbox" id="star5" name="rate" value="5"  disabled/>
                 <label for="star5" title="text">5 stars</label>
-                <input type="checkbox" id="star4" name="rate" value="4"/>
+                <input type="checkbox" id="star4" name="rate" value="4" disabled/>
                 <label for="star4" title="text">4 stars</label>
-                <input type="checkbox" id="star3" name="rate" value="3" checked />
+                <input type="checkbox" id="star3" name="rate" value="3" checked disabled/>
                 <label for="star3" title="text">3 stars</label>
-                <input type="checkbox" id="star2" name="rate" value="2" checked />
+                <input type="checkbox" id="star2" name="rate" value="2" checked disabled/>
                 <label for="star2" title="text">2 stars</label>
-                <input type="checkbox" id="star1" name="rate" value="1" checked />
+                <input type="checkbox" id="star1" name="rate" value="1" checked disabled/>
                 <label for="star1" title="text">1 star</label>
                           </div>
                           <p>الحد الأدنى للطلب: 60 ريال</p>
@@ -155,15 +167,15 @@
                     <div class="col-md-6">
                         <h3>دجاج كنتاكي</h3>
                         <div class="rate clearfix" dir="rtl">
-                             <input type="checkbox" id="star5" name="rate" value="5"  />
+                             <input type="checkbox" id="star5" name="rate" value="5" disabled />
                 <label for="star5" title="text">5 stars</label>
-                <input type="checkbox" id="star4" name="rate" value="4"/>
+                <input type="checkbox" id="star4" name="rate" value="4" disabled/>
                 <label for="star4" title="text">4 stars</label>
-                <input type="checkbox" id="star3" name="rate" value="3" checked />
+                <input type="checkbox" id="star3" name="rate" value="3" checked disabled/>
                 <label for="star3" title="text">3 stars</label>
-                <input type="checkbox" id="star2" name="rate" value="2" checked />
+                <input type="checkbox" id="star2" name="rate" value="2" checked disabled/>
                 <label for="star2" title="text">2 stars</label>
-                <input type="checkbox" id="star1" name="rate" value="1" checked />
+                <input type="checkbox" id="star1" name="rate" value="1" checked disabled/>
                 <label for="star1" title="text">1 star</label>
                           </div>
                           <p>الحد الأدنى للطلب: 60 ريال</p>
@@ -182,15 +194,15 @@
                     <div class="col-md-6">
                         <h3>دجاج كنتاكي</h3>
                         <div class="rate clearfix" dir="rtl">
-                             <input type="checkbox" id="star5" name="rate" value="5"  />
+                             <input type="checkbox" id="star5" name="rate" value="5"  disabled/>
                 <label for="star5" title="text">5 stars</label>
-                <input type="checkbox" id="star4" name="rate" value="4"/>
+                <input type="checkbox" id="star4" name="rate" value="4" disabled/>
                 <label for="star4" title="text">4 stars</label>
-                <input type="checkbox" id="star3" name="rate" value="3" checked />
+                <input type="checkbox" id="star3" name="rate" value="3" checked disabled/>
                 <label for="star3" title="text">3 stars</label>
-                <input type="checkbox" id="star2" name="rate" value="2" checked />
+                <input type="checkbox" id="star2" name="rate" value="2" checked disabled/>
                 <label for="star2" title="text">2 stars</label>
-                <input type="checkbox" id="star1" name="rate" value="1" checked />
+                <input type="checkbox" id="star1" name="rate" value="1" checked disabled/>
                 <label for="star1" title="text">1 star</label>
                           </div>
                           <p>الحد الأدنى للطلب: 60 ريال</p>
@@ -211,15 +223,15 @@
                     <div class="col-md-6">
                         <h3>دجاج كنتاكي</h3>
                         <div class="rate clearfix" dir="rtl">
-                             <input type="checkbox" id="star5" name="rate" value="5"  />
+                             <input type="checkbox" id="star5" name="rate" value="5"  disabled/>
                 <label for="star5" title="text">5 stars</label>
                 <input type="checkbox" id="star4" name="rate" value="4"/>
                 <label for="star4" title="text">4 stars</label>
-                <input type="checkbox" id="star3" name="rate" value="3" checked />
+                <input type="checkbox" id="star3" name="rate" value="3" checked disabled/>
                 <label for="star3" title="text">3 stars</label>
-                <input type="checkbox" id="star2" name="rate" value="2" checked />
+                <input type="checkbox" id="star2" name="rate" value="2" checked disabled/>
                 <label for="star2" title="text">2 stars</label>
-                <input type="checkbox" id="star1" name="rate" value="1" checked />
+                <input type="checkbox" id="star1" name="rate" value="1" checked disabled/>
                 <label for="star1" title="text">1 star</label>
                           </div>
                           <p>الحد الأدنى للطلب: 60 ريال</p>
@@ -238,15 +250,15 @@
                     <div class="col-md-6">
                         <h3>دجاج كنتاكي</h3>
                         <div class="rate clearfix" dir="rtl">
-                             <input type="checkbox" id="star5" name="rate" value="5"  />
+                             <input type="checkbox" id="star5" name="rate" value="5"  disabled/>
                 <label for="star5" title="text">5 stars</label>
-                <input type="checkbox" id="star4" name="rate" value="4"/>
+                <input type="checkbox" id="star4" name="rate" value="4" disabled/>
                 <label for="star4" title="text">4 stars</label>
-                <input type="checkbox" id="star3" name="rate" value="3" checked />
+                <input type="checkbox" id="star3" name="rate" value="3" checked disabled/>
                 <label for="star3" title="text">3 stars</label>
-                <input type="checkbox" id="star2" name="rate" value="2" checked />
+                <input type="checkbox" id="star2" name="rate" value="2" checked disabled/>
                 <label for="star2" title="text">2 stars</label>
-                <input type="checkbox" id="star1" name="rate" value="1" checked />
+                <input type="checkbox" id="star1" name="rate" value="1" checked disabled/>
                 <label for="star1" title="text">1 star</label>
                           </div>
                           <p>الحد الأدنى للطلب: 60 ريال</p>
@@ -269,7 +281,7 @@
             <div class="col-md-6">
                 <div class="container offer">
                     <h3>نقدم في سفرة أفضل العروض لكل أنواع المطاعم والأكلات الشهية المهلبية ماذا تنتظر ابدأ بالاستمتاع بالعروض الآن</h3>
-                    <a class="btn btn-custom">شاهد العروض</a>
+                    <a class="btn btn-custom" href="offers-1.html">شاهد العروض</a>
                 </div>
             </div>
         </div>
@@ -311,8 +323,12 @@
                 
             </div>
             <div class="col-md-4 clearfix">
-                <img class="nav-brand img-fluid" src="../imgs/sofra logo.png">
-            </div>
+                <a href="../../index.html">
+                  <div class="logo">
+                      <img class="nav-brand img-fluid" src="../imgs/sofra logo.png">
+                  </div>
+                </a>
+              </div>
         </div>
     </div>
 </footer>

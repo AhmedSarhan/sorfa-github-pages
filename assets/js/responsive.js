@@ -100,6 +100,15 @@ $('.order a').click(function() {
   $(this).addClass('.active');
 });
 
+// making whole meal div clickable
+$(".logo").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});
+// $(".section-products .card").click(function() {
+//   window.location = $(this).find("a").attr("href");
+//   return false;
+// });
 
 // $('.order').on('click', 'li', function() {
 //   alert('clicked');

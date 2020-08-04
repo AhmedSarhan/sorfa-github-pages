@@ -16,64 +16,67 @@
     <title>سفرة</title>
   </head>
   <body>
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="container-fluid">
-      <div class="row">
-          <div class="col-md-6">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#" class="nav-link"  role="button">
-                        <i class="fas fa-shopping-cart"></i>
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-user-circle"></i>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#"><i class="fas fa-suitcase-rolling"></i> منتجاتي</a>
-                      <a class="dropdown-item" href="#"><i class="fas fa-gift"></i> العروض</a>
-                      <a class="dropdown-item" href="#"><i class="fas fa-envelope-square"></i> تواصل معنا</a>
-                      <a class="dropdown-item" href="#"><i class="fas fa-user"></i>حسابي</a>
-                      <a class="dropdown-item" href="#"><i class="fas fa-calculator"></i> العمولة</a>
-                      <a class="dropdown-item" href="#"><i class="far fa-sticky-note"></i> الطلبات المقدمة</a>
-                      <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i>تسجيل الخروج</a>
-
-                    </div>
-                  </li>
-                </ul>
-                <form class="form-inline  my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" aria-label="Search">
-                  <a class="btn my-sm-0" type="submit"><i class="fas fa-search"></i></a>
-                </form>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-6">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a  class="nav-link"  href="assets/pages/sofra-home-client.html" type="button">
+                              <i class="fa fa-home"></i>
+                          </a>
+                        </li>
+                    <li class="nav-item">
+                        <a href="assets/pages/orders.html" class="nav-link"   type="button">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" data-toggle="collapse" data-target="#navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user-circle"></i>
+                        </a>
+                        <div class="dropdown-menu" id="navbarDropdown" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#"><i class="fas fa-suitcase-rolling"></i> منتجاتي</a>
+                          <a class="dropdown-item" href="assets/pages/offers-1.html"><i class="fas fa-gift"></i> العروض</a>
+                          <a class="dropdown-item" href="assets/pages/contact-us.html"><i class="fas fa-envelope-square"></i> تواصل معنا</a>
+                          <a class="dropdown-item" href="assets/pages/my-account.html"><i class="fas fa-user"></i>حسابي</a>
+                          <a class="dropdown-item" href="assets/pages/my-orders-new.html"><i class="far fa-sticky-note"></i> الطلبات المقدمة</a>
+                          <a class="dropdown-item" href="assets/pages/login.html"><i class="fas fa-sign-out-alt"></i>تسجيل الخروج</a>
+                        </div>
+                    </li>
+                    </ul>
+                    <form class="form-inline  my-lg-0">
+                      <input class="form-control mr-sm-2" type="search" aria-label="Search">
+                      <a class="btn my-sm-0" type="submit"><i class="fas fa-search"></i></a>
+                    </form>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <a class="navbar-brand" href="assets/pages/sofra-resturant.html"><img src="assets/imgs/sofra logo.png" alt="logo"></a>
+              </div>
+              <div class="col-md-2">
+                <i class="fas fa-hamburger"></i>
               </div>
           </div>
-          <div class="col-md-4">
-            <a class="navbar-brand" href="index.html"><img src="assets/imgs/sofra logo.png" alt="logo"></a>
-          </div>
-          <div class="col-md-2">
-            <i class="fas fa-hamburger"></i>
-          </div>
       </div>
-  </div>
-</nav>
+  </nav>
 <section class="section-header clearfix">
     <div class="container clearfix">
         <img class="img-fluid" src="assets/imgs/res-img.png" alt="kentuky logo">
         <div class="rate clearfix" dir="rtl">
-            <input type="radio" id="star5" name="rate" value="5" checked />
+            <input type="radio" id="star5" name="rate" value="5" checked disabled/>
             <label for="star5" title="text">5 stars</label>
-            <input type="radio" id="star4" name="rate" value="4" checked/>
+            <input type="radio" id="star4" name="rate" value="4" checked disabled/>
             <label for="star4" title="text">4 stars</label>
-            <input type="radio" id="star3" name="rate" value="3" checked/>
+            <input type="radio" id="star3" name="rate" value="3" checked disabled/>
             <label for="star3" title="text">3 stars</label>
-            <input type="radio" id="star2" name="rate" value="2" />
+            <input type="radio" id="star2" name="rate" value="2" disabled/>
             <label for="star2" title="text">2 stars</label>
-            <input type="radio" id="star1" name="rate" value="1" />
+            <input type="radio" id="star1" name="rate" value="1" disabled/>
             <label for="star1" title="text">1 star</label>
         </div>
     </div>
@@ -81,49 +84,46 @@
 <section class="section-products clearfix">
     <div class="container clearfix">
         <h3>قائمة الطعام / منتجاتي</h3>
-        <a class="btn-custom">اضف منتج جديد</a>
+        <a class="btn-custom" href="assets/pages/add-new-product.html">اضف منتج جديد</a>
         <div class="row clearfix">
             <div class="col-md-4 clearfix">
                 <div class="card clearfix">
-                    <a class="remove" role="button" href="#"><i class="fas fa-times-circle"></i></a>
-                    <img src="assets/imgs/burger2.png" class="card-img-top" alt="burger">
-                    <div class="card-body clearfix">
-                      <h4 class="card-title">بيف برجر 250 جرام </h4>
-                      <p class="card-text">هناك حقيقة مثبتة أن الفراخ الكرسبي حارة</p>
-                      <p class="card-price"><img src="assets/imgs/piggy-bank.png"> 55 ريال</p>
-
-                    </div>
+                  <a class="remove" role="button"><i class="fas fa-times-circle"></i></a>
+                  <img src="assets/imgs/burger2.png" class="card-img-top" alt="burger">
+                  <div class="card-body clearfix">
+                    <h4 class="card-title">بيف برجر 250 جرام </h4>
+                    <p class="card-text">هناك حقيقة مثبتة أن الفراخ الكرسبي حارة</p>
+                    <p class="card-price"><img src="assets/imgs/piggy-bank.png"> 55 ريال</p>
                   </div>
+                </div>          
             </div>
             <div class="col-md-4 clearfix">
                 <div class="card clearfix">
-                    <a class="remove" role="button" href="#"><i class="fas fa-times-circle"></i></a>
+                    <a class="remove" role="button"><i class="fas fa-times-circle"></i></a>
                     <img src="assets/imgs/burger2.png" class="card-img-top" alt="burger">
                     <div class="card-body">
                       <h4 class="card-title">بيف برجر 250 جرام </h4>
                       <p class="card-text">هناك حقيقة مثبتة أن الفراخ الكرسبي حارة</p>
                       <p class="card-price"><img src="assets/imgs/piggy-bank.png"> 55 ريال</p>
-
-                    </div>
+                     </div>
                   </div>
             </div>
             <div class="col-md-4 clearfix">
                 <div class="card clearfix">
-                    <a class="remove" role="button" href="#"><i class="fas fa-times-circle"></i></a>
+                    <a class="remove" role="button"><i class="fas fa-times-circle"></i></a>
                     <img src="assets/imgs/burger2.png" class="card-img-top" alt="burger">
                     <div class="card-body clearfix">
                       <h4 class="card-title">بيف برجر 250 جرام </h4>
                       <p class="card-text">هناك حقيقة مثبتة أن الفراخ الكرسبي حارة</p>
                       <p class="card-price"><img src="assets/imgs/piggy-bank.png"> 55 ريال</p>
-
-                    </div>
+                                        </div>
                   </div>
             </div>
         </div>
         <div class="row clearfix">
             <div class="col-md-4 clearfix">
                 <div class="card clearfix">
-                    <a class="remove" role="button" href="#"><i class="fas fa-times-circle"></i></a>
+                    <a class="remove" role="button"><i class="fas fa-times-circle"></i></a>
                     <img src="assets/imgs/burger2.png" class="card-img-top" alt="burger">
                     <div class="card-body clearfix">
                       <h4 class="card-title">بيف برجر 250 جرام </h4>
@@ -135,7 +135,7 @@
             </div>
             <div class="col-md-4 clearfix">
                 <div class="card clearfix">
-                    <a class="remove" role="button" href="#"><i class="fas fa-times-circle"></i></a>
+                    <a class="remove" role="button"><i class="fas fa-times-circle"></i></a>
                     <img src="assets/imgs/burger2.png" class="card-img-top" alt="burger">
                     <div class="card-body clearfix">
                       <h4 class="card-title">بيف برجر 250 جرام </h4>
@@ -147,7 +147,7 @@
             </div>
             <div class="col-md-4 clearfix">
                 <div class="card clearfix">
-                    <a class="remove" role="button" href="#"><i class="fas fa-times-circle"></i></a>
+                    <a class="remove" role="button"><i class="fas fa-times-circle"></i></a>
                     <img src="assets/imgs/burger2.png" class="card-img-top" alt="burger">
                     <div class="card-body clearfix">
                       <h4 class="card-title">بيف برجر 250 جرام </h4>
@@ -183,8 +183,13 @@
                 
             </div>
             <div class="col-md-4">
-                <img class="nav-brand img-fluid" src="assets/imgs/sofra logo.png">
+              <a href="#">
+                <div class="logo">
+                    <img class="nav-brand img-fluid" src="assets/imgs/sofra logo.png">
+                </div>
+              </a>
             </div>
+          </div>
         </div>
     </div>
 </footer>

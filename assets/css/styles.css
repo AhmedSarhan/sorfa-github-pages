@@ -28,6 +28,9 @@
    
     
 }
+a, button {
+    cursor: pointer !important; 
+}
 .info-header{
     color:#ff4757;
     border-right: 4px solid #000;
@@ -44,12 +47,15 @@
 .btn-custom:hover{
     background-image: url("imgs/Rectangle\ 9.png");
     color:#fff!important;
+    text-decoration: none;
 }
 .btn-custom:visited,
 .btn-custom:active{
     outline: none;
     background-image: url("imgs/Rectangle\ 9.png");
     color:#fff!important;
+    text-decoration: none;
+
 }
 
 
@@ -183,7 +189,7 @@ input[type="date"]::-webkit-datetime-edit {
     
 }
 .client-header .btn-custom{
-    font-size: 200%;
+    font-size: 100%;
     padding-left:40px;
     padding-right: 40px;
 }
@@ -295,6 +301,7 @@ input[type="date"]::-webkit-datetime-edit {
 }
 .remove{
     display: flex;
+    cursor: pointer;
 }
 .remove:hover{
     text-decoration: none;
@@ -371,6 +378,11 @@ input[type="date"]::-webkit-datetime-edit {
     margin-top: 20px;
 
 }
+.logo{
+    cursor: pointer;
+}
+
+
 /* home-client page */
 .fav-resturant h3{
     margin-top:30px;
@@ -875,15 +887,15 @@ input[type="date"]::-webkit-datetime-edit {
     text-align: right;
 }
 .new-product span a{
-    color:#ff4757;
+    color:#ff4757 !important;
 
 }
 .new-product span a:active{
-    color:#ff4757;
+    color:#ff4757 !important;
     
 }
 .new-product span a:hover{
-    color:#ff4757;
+    color:#ff4757 !important;
     text-decoration: none;
     
 }
@@ -1155,11 +1167,18 @@ input[type="date"]::-webkit-datetime-edit {
 .orders .carts{
     background-image: none;
 }
+.orders .carts .row{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 .orders .cart{
     
-    background-color: #dcdcdc;
+    background-color: #d1d8e0;
     margin-top: 0;
     margin-bottom: 0;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
     
 }
