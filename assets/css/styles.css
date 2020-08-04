@@ -12,6 +12,10 @@
   }
 
 /* repeatable elements */
+button:focus{
+    outline: none !important;
+}
+
 .btn-custom{
     background-image: url("imgs/Rectangle\ 9.png");
     color:#fff!important;
@@ -139,6 +143,11 @@ input[type="date"]::-webkit-datetime-edit {
     font-size: 200%;
     margin-top:35px;
     margin-left: 20px;
+}
+
+.navbar-toggler{
+    border: none;
+    border-color: unset;
 }
 .navbar .fa-hamburger{
     float: left;
@@ -1295,6 +1304,11 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
         width:auto;
     }
     
+}
+@media only screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-toggler {
+    display: inline-block;
+    }
 }
 @media only screen and (max-width: 1024px) {
   
